@@ -45,7 +45,7 @@ fields_proxy = [
         default=None,
         validator=validator.String(
             min_len=0,
-            max_len=50,
+            max_len=256,
         ),
     ),
     field.RestField(
